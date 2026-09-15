@@ -19,3 +19,5 @@ brew upgrade theleetsec/tap/leetenum
 ```
 
 Source: https://github.com/theleetsec/LeetSec-Tools
+
+Newer Homebrew versions may require explicit formula trust before tapping. After reviewing the formula, run `brew trust --formula theleetsec/tap/leetenum`, then retry `brew tap theleetsec/tap`. Older versions without `brew trust` can omit this step.
